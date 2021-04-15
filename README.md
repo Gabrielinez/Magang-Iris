@@ -62,7 +62,7 @@ using namespace std;
 
 int main(){
 
-int data [5];
+int data [1];
 
 int *nilai;
 
@@ -70,13 +70,13 @@ nilai = data;
 
 cout << "input data : ";
 
-for(int i=0; i<5; i++) {
+for(int i=0; i<1; i++) {
 
 cin >> data [i];
 
 }
 
-for(int i=0; i<5; i++) {
+for(int i=0; i<1; i++) {
 
 cout<<"data : "<<data[i]<<"menempati alamat memori : ";
 
